@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Banner1 from '../images/Banner1.jpg'
 import Banner2 from '../images/Banner2.jpg'
 import HomePageCard from '../components/HomePageCard'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
@@ -53,7 +54,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex-1 bg-slate-600 text-start">
+          <div className="flex-1 bg-gray-800 text-start">
               <div className=" pt-24 pl-16 md:text-3xl lg:text-5xl text-white font-medium">
                 Our Products
               </div>
@@ -71,6 +72,10 @@ const HomePage = () => {
             </a>
           </div>
         </div>
+      </div>
+      
+      <div className='mt-8'>
+        <Footer/>
       </div>
     </>
   )
