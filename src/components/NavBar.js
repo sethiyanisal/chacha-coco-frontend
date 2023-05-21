@@ -6,16 +6,16 @@ const NavBar = () => {
       <>
         <nav className="bg-white grid grid-cols-2">
             <div className="container flex items-center pl-4 justify-start w-16">
-              <img src={Logo}></img>
+              <img src={Logo} alt='Chacha Coco Logo'></img>
             </div>
             <div className="container flex items-center justify-end p-6 mx-auto capitalize dark:text-black-200">
-                <a href="#" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Home</a>
+                <a href="/" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Home</a>
 
-                <a href="#" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Products & Services</a>
+                <a href="./Products" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Products & Services</a>
 
-                <a href="#" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">About Us</a>
+                <a href="./AboutUs" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">About Us</a>
 
-                <a href="#" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Contact Us</a>
+                <a href="./Contact" className="border-b-2 border-transparent hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Contact Us</a>
             </div>
         </nav>
       </>
