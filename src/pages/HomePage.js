@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 import Banner1 from '../images/Banner1.jpg'
 import Banner2 from '../images/Banner2.jpg'
 import Banner3 from '../images/Banner3.jpg'
+import Wlogo from '../images/whatsapp-logo.png'
 
 
 const HomePage = () => {
@@ -19,6 +20,13 @@ const HomePage = () => {
           className="relative text-center text-white font-popins bg-cover bg-center h-screen brightness-50"
           style={{ backgroundImage: `url(${Banner1})` }}
       ></div>
+
+      <div className="z-50 fixed bottom-0 right-0 m-8">
+        <a href="https://wa.me/94761431782">
+            <img className='pl-6 w-20' src={Wlogo} alt='Chat with us'></img>
+        </a>
+        <span className='text-white font-bold'>Chat with us</span>
+      </div>
       
       <div>
         <HomePageCard/>
@@ -85,7 +93,7 @@ const HomePage = () => {
                     to="/"
                     title="Link"
                     style={{
-                      backgroundImage: `url(${Banner1})`,
+                      backgroundImage: `url(${Banner3})`,
                     }}
                   ></Link>
                 </div>
@@ -106,7 +114,7 @@ const HomePage = () => {
                   to="/"
                   title="Link"
                   style={{
-                    backgroundImage: `url(${Banner1})`,
+                    backgroundImage: `url(${Banner3})`,
                   }}
                 ></Link>
               </div>
