@@ -145,7 +145,7 @@ const HomePage = () => {
               <div className=" pt-24 pl-16 md:text-3xl lg:text-5xl text-white font-medium">
                 Our Products
               </div>
-              <p className='leading-loose md:text-sm lg:text-base lg:w-3/4 text-white mt-16 ml-16'> 
+              <p className='leading-loose md:text-sm lg:text-base font-semibold lg:w-3/4 text-white mt-16 ml-16'> 
               At 'CHACHA COCO', we pride ourselves on being a leading exporter of high-quality coco peat products. 
               With a commitment to sustainability and superior quality, we offer a range of coco peat solutions that cater to 
               the diverse needs of our global clientele. Our dedication to customer satisfaction, reliable sourcing, and eco-friendly 
