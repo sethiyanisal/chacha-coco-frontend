@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import NavBar from '../components/NavBar'
 import ProductBanner from '../images/Product_Banner.jpg'
 
@@ -8,8 +9,23 @@ import GrowBlock from '../images/Products/Grow_Block.jpeg'
 import GrowBrick from '../images/Products/Grow_Brick.jpeg'
 import GrowBag from '../images/Products/Grow_Bag.jpeg'
 import Footer from '../components/Footer'
+import CocoPithModal from '../components/modals/CocoPithModal'
+import HuskChipModal from '../components/modals/HuskChipModal'
+import GrowBlockModal from '../components/modals/GrowBlockModal'
+import GrowBrickModal from '../components/modals/GrowBrickModal'
+import GrowBagModal from '../components/modals/GrowBagModal'
+import ProductTable from '../components/ProductTable'
+import PropertyList from '../components/PropertyList'
+import MixtureTable from '../components/MixtureTable'
 
 const ProductsPage = () => {
+
+  const [popUp1, setPopUp1] = useState(false);
+  const [popUp2, setPopUp2] = useState(false);
+  const [popUp3, setPopUp3] = useState(false);
+  const [popUp4, setPopUp4] = useState(false);
+  const [popUp5, setPopUp5] = useState(false);
+
   return (
     <>
         <NavBar/>
@@ -60,12 +76,12 @@ const ProductsPage = () => {
           </div>
         </section>
 
-        <section class="bg-white">
-          <div class="container px-6 py-10 mx-auto">
-              <h1 class="text-2xl font-bold text-center text-green-500 capitalize lg:text-4xl">Our Product Varieties
+        <section className="bg-white">
+          <div className="container px-6 py-10 mx-auto">
+              <h1 className="text-3xl font-bold text-center text-green-500 capitalize lg:text-5xl xl:text-6xl">Our Product Varieties
               </h1>
 
-              <p class="mt-8 text-center text-base lg:text-xl font-semibold px-12 text-gray-600">
+              <p className="mt-8 text-center text-base lg:text-xl font-semibold px-12 text-gray-600">
                 We manufacture range of coconut husk based products to the local and export market. 
                 As we used only matured dry coconut husks without chemical treatments, our products are high quality, environment friendly and 100 % biodegradable. 
                 Further our products enhance the root formation of plants and crops with high water holding capacity and air filled porosity. 
@@ -74,54 +90,119 @@ const ProductsPage = () => {
               </p>
 
 
-              <div class="flex flex-wrap justify-center gap-12 mt-8 xl:mt-12">
-                  <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+              <div className="flex flex-wrap justify-center gap-12 mt-8 xl:mt-12">
+                  <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
                       style={{backgroundImage:`url(${CocoPith})`}}>
                       <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-                          <h2 class="mt-4 text-xl font-semibold text-white capitalize">Coco Fibre Pith</h2>
-                          <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Read More</p>
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          <h2 className="text-xl font-semibold text-white capitalize">Coco Fibre Pith</h2>
+                          <button
+                            className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                            type="button"
+                            onClick={() => setPopUp1(true)}
+                          >
+                            Read More
+                          </button>
                       </div>
                   </div>
 
-                  <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+                  <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
                       style={{backgroundImage:`url(${HuskChips})`}}>
                       <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-                          <h2 class="mt-4 text-xl font-semibold text-white capitalize">Husk Chips</h2>
-                          <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Read More</p>
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          <h2 className="mt-4 text-xl font-semibold text-white capitalize">Husk Chips</h2>
+                          <button
+                            className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                            type="button"
+                            onClick={() => setPopUp2(true)}
+                          >
+                            Read More
+                          </button>
                       </div>
                   </div>
 
-                  <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+                  <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
                       style={{backgroundImage:`url(${GrowBlock})`}}>
                       <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-                          <h2 class="mt-4 text-xl font-semibold text-white capitalize">Grow Blocks </h2>
-                          <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Read More</p>
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          <h2 className="mt-4 text-xl font-semibold text-white capitalize">Grow Blocks </h2>
+                          <button
+                            className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                            type="button"
+                            onClick={() => setPopUp3(true)}
+                          >
+                            Read More
+                          </button>
                       </div>
                   </div>
 
-                  <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+                  <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
                       style={{backgroundImage:`url(${GrowBrick})`}}>
                       <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-                          <h2 class="mt-4 text-xl font-semibold text-white capitalize">Grow Bricks </h2>
-                          <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Read More</p>
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          <h2 className="mt-4 text-xl font-semibold text-white capitalize">Grow Bricks </h2>
+                          <button
+                            className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                            type="button"
+                            onClick={() => setPopUp4(true)}
+                          >
+                            Read More
+                          </button>
                       </div>
                   </div>
 
-                  <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+                  <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
                       style={{backgroundImage:`url(${GrowBag})`}}>
                       <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-                          <h2 class="mt-4 text-xl font-semibold text-white capitalize">Grow Bags </h2>
-                          <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Read More</p>
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          <h2 className="mt-4 text-xl font-semibold text-white capitalize">Grow Bags </h2>
+                          <button
+                            className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                            type="button"
+                            onClick={() => setPopUp5(true)}
+                          >
+                            Read More
+                          </button>
                       </div>
                   </div>
               </div>
           </div>
         </section>
+
+        {popUp1 && <CocoPithModal setPopUp1={setPopUp1} />}
+        {popUp2 && <HuskChipModal setPopUp2={setPopUp2} />}
+        {popUp3 && <GrowBlockModal setPopUp3={setPopUp3} />}
+        {popUp4 && <GrowBrickModal setPopUp4={setPopUp4} />}
+        {popUp5 && <GrowBagModal setPopUp5={setPopUp5} />}
+
+      <div className='mt-8 mb-4'>
+        <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-green-500 tracking-tight mb-12">Our Products<br />
+        </h1>
+        <h2 className="text-2xl mx-32 text-left font-semibold text-gray-600 mb-8">At present we have following varities of grow bags with showing mixtures.</h2>
+        <ProductTable/>
+      </div>
+
+      <div>
+        <PropertyList/>
+      </div>
+
+      <div className='mt-16 mb-4'>
+        <h2 className="text-2xl mx-32 text-left font-semibold text-gray-600 mb-8">Water holding capacity & air-filled porosity range of specific mixtures.</h2>
+        
+        <MixtureTable/>
+        
+        <h2 className="text-lg mx-32 text-center font-semibold text-gray-800 mb-8">PH level 5.7 -6.7 & Electrical Conductivity (EC) level 0.5 to 1.2
+        No added chemicals or chemical treatments and Iron Exchange property remains naturally.
+        </h2>
+      </div>
+
+      <div className='mt-12 mb-4'>
+        <h2 className="text-2xl mx-32 text-left font-bold text-gray-800 mb-8">
+        Crops can grow with our products
+        </h2>
+
+        <p className="text-xl mx-32 text-left font-semibold text-gray-600 mb-20">Water melon, capsicum, yellow/red /green pepper, bell pepper, tomatoes, gherkin, lettuce, cabbage, strawberry and blue berry, Chile etc.</p>
+      </div>
 
       <div className='mt-8'>
         <Footer/>
