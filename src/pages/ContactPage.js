@@ -1,9 +1,25 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import emailjs from '@emailjs/browser'
+
 import NavBar from '../components/NavBar'
 import Banner1 from '../images/Banner1.jpg'
 import Footer from '../components/Footer'
 
 const ContactPage = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_q2r76mm', 'template_2n2y1q6', form.current, 'D2a4CkUXbA64EBGoQ')
+        .then((result) => {
+            console.log("Sent");
+        }, (error) => {
+            console.log("Not sent");
+        });
+    };
+
   return (
     <>
         <NavBar/>
@@ -116,23 +132,23 @@ const ContactPage = () => {
                                     to hear from you
                                 </p>
 
-                                <form className="mt-6">
+                                <form ref={form} onSubmit={sendEmail} className="mt-6">
                                     <div className="flex-1">
                                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
-                                        <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                        <input type="text" placeholder="John Doe" name='name' required className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                     </div>
 
                                     <div className="flex-1 mt-6">
                                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
-                                        <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                        <input type="email" placeholder="johndoe@example.com" name='email' required className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                     </div>
 
                                     <div className="w-full mt-6">
                                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
-                                        <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Message"></textarea>
+                                        <textarea name='message' className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Message"></textarea>
                                     </div>
 
-                                    <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-md hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-400 focus:ring-opacity-50">
+                                    <button type='submit' className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-md hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-400 focus:ring-opacity-50">
                                         get in touch
                                     </button>
                                 </form>
