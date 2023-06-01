@@ -1,7 +1,6 @@
 {
   "name": "chacha-coco-frontend",
   "version": "0.1.0",
-  "homepage": "https://sethiyanisal.github.io/chacha-coco-frontend/#",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -18,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build",   
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
