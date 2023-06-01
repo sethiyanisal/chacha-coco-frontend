@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chacha-coco-frontend/static/css/main.5bafb51a.css",
-    "main.js": "/chacha-coco-frontend/static/js/main.0ab70103.js",
+    "main.js": "/chacha-coco-frontend/static/js/main.d23f4dca.js",
     "static/media/Banner1.jpg": "/chacha-coco-frontend/static/media/Banner1.5dafe6dd499ba424406c.jpg",
     "static/media/Coco_Fibre_Pith.jpg": "/chacha-coco-frontend/static/media/Coco_Fibre_Pith.96b687b7c298f92e078f.jpg",
     "static/media/Husk_Chips.png": "/chacha-coco-frontend/static/media/Husk_Chips.896261702a2eb3f0c791.png",
@@ -19,10 +19,10 @@
     "static/media/Hemantha_Director.png": "/chacha-coco-frontend/static/media/Hemantha_Director.c021d294bcb8eab77181.png",
     "index.html": "/chacha-coco-frontend/index.html",
     "main.5bafb51a.css.map": "/chacha-coco-frontend/static/css/main.5bafb51a.css.map",
-    "main.0ab70103.js.map": "/chacha-coco-frontend/static/js/main.0ab70103.js.map"
+    "main.d23f4dca.js.map": "/chacha-coco-frontend/static/js/main.d23f4dca.js.map"
   },
   "entrypoints": [
     "static/css/main.5bafb51a.css",
-    "static/js/main.0ab70103.js"
+    "static/js/main.d23f4dca.js"
   ]
 }
