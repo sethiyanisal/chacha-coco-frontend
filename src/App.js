@@ -14,8 +14,9 @@ import GalleryPage from './pages/GalleryPage';
 function App() {
   return (
     <div className="App">
-
       <Routes>
+        <Route path="/" element={<Layout/>}>
+          
           {/* public routes */}
           <Route path="/" element={<HomePage/>}></Route>
           <Route path="/AboutUs" element={<AboutUsPage/>}></Route>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Certificates" element={<CertificatesPage/>}></Route>
           <Route path="/Gallery" element={<GalleryPage/>}></Route>
           <Route path="/Contact" element={<ContactPage/>}></Route>
+        </Route>
       </Routes>
     </div>
   );
