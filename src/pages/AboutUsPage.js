@@ -1,12 +1,19 @@
 import React from 'react'
+import { useState } from 'react'
+
 import NavBar from '../components/NavBar'
 import Banner2 from '../images/Banner2.jpg'
 import Footer from '../components/Footer'
 import Hemantha from '../images/Hemantha_Director.png'
 import Sarath from '../images/Sarath_CEO.jpg'
 import Upali from '../images/Upali_Director.jpg'
+import Certificate from '../images/BR_Certificate.png'
+import CertificateModal from '../components/modals/CertificateModal'
 
 const AboutUsPage = () => {
+
+  const [popUp, setPopUp] = useState(false);
+
   return (
     <>
         <NavBar/>
@@ -14,7 +21,7 @@ const AboutUsPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-8">
           <div className="flex flex-col">
             <div className="flex-1 text-start md:p-8 sm:p-4">
-              <div className="lg:pl-16 sm:text-2xl md:text-3xl lg:text-5xl text-green-500 font-medium">
+              <div className="lg:pl-16 sm:text-2xl md:text-3xl lg:text-5xl text-green-500 font-bold">
                   About Us
               </div>
               <p className='lg:pl-16 sm:text-xl lg:text-xl lg:w-5/6 text-gray-600 mt-8'> 
@@ -40,7 +47,7 @@ const AboutUsPage = () => {
           <dh-component>
               <div className="container flex justify-center mx-auto pt-16">
                   <div>
-                      <p className="text-gray-500 text-3xl text-center font-bold pb-3">OUR TEAM</p>
+                      <p className="text-gray-700 text-5xl text-center font-bold pb-3">OUR TEAM</p>
                       <h1 className="xl:text-xl text-xl text-center text-gray-800 pb-6 sm:w-4/6 w-5/6 mx-auto">
                         Our team consisting three personnel in top
                         management and 15 personnel in executives
@@ -102,6 +109,29 @@ const AboutUsPage = () => {
               </div>
           </dh-component>
       </div>
+      
+      <div>
+        <h1 className="text-2xl md:text-3xl xl:text-4xl mx-12 text-center font-bold text-green-500 tracking-tight mb-12 mt-12">Business Registration Certificate<br />
+        </h1>
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-12 mt-8 xl:mt-12">
+        <div className="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer w-96 h-96 group"
+            style={{backgroundImage:`url(${Certificate})`}}>
+            <div
+                className="flex flex-col justify-center w-full h-full px-12 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <button
+                className="mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 border border-green-500 hover:border-green-600"
+                type="button"
+                onClick={() => setPopUp(true)}
+                >
+                Show
+                </button>
+            </div>
+        </div>
+      </div>
+
+      {popUp && <CertificateModal setPopUp={setPopUp} />}
 
       <div className='mt-8'>
         <Footer/>

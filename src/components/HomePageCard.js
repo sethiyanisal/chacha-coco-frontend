@@ -11,9 +11,9 @@ const HomePageCard = () => {
           </h1>
           <h3 className=" text-3xl pt-4 font-medium">MIHINETH ASSOCIATES (PVT) LTD</h3>
 
-          <a href="./AboutUs">
+          <a href="./Contact">
             <button className=" mt-8 mr-2 mb-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 border border-green-500 hover:border-green-600">
-              MORE INFO
+              Contact Us
             </button>
           </a>
         </div>
