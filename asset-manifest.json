@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/chacha-coco-frontend/static/css/main.5bafb51a.css",
+    "main.js": "/chacha-coco-frontend/static/js/main.f25279eb.js",
+    "static/media/Banner1.jpg": "/chacha-coco-frontend/static/media/Banner1.5dafe6dd499ba424406c.jpg",
+    "static/media/Coco_Fibre_Pith.jpg": "/chacha-coco-frontend/static/media/Coco_Fibre_Pith.96b687b7c298f92e078f.jpg",
+    "static/media/Husk_Chips.png": "/chacha-coco-frontend/static/media/Husk_Chips.896261702a2eb3f0c791.png",
+    "static/media/BR_Certificate.png": "/chacha-coco-frontend/static/media/BR_Certificate.993581331a2373ae180e.png",
+    "static/media/Logo.png": "/chacha-coco-frontend/static/media/Logo.dd2180b1f4aa4da1c9b3.png",
+    "static/media/Grow_Block.jpeg": "/chacha-coco-frontend/static/media/Grow_Block.af626155b50f3f9c43c7.jpeg",
+    "static/media/Upali_Director.jpg": "/chacha-coco-frontend/static/media/Upali_Director.f3a50331fe9eba177f6c.jpg",
+    "static/media/Sarath_CEO.jpg": "/chacha-coco-frontend/static/media/Sarath_CEO.06f51a28dbe774504d19.jpg",
+    "static/media/whatsapp-logo.png": "/chacha-coco-frontend/static/media/whatsapp-logo.6eb12db1ca26eda4afac.png",
+    "static/media/Grow_Bag.jpeg": "/chacha-coco-frontend/static/media/Grow_Bag.f3e1ce1fd6c8ed5abf87.jpeg",
+    "static/media/Banner2.jpg": "/chacha-coco-frontend/static/media/Banner2.9ac7b78a971222cab22a.jpg",
+    "static/media/Product_Banner.jpg": "/chacha-coco-frontend/static/media/Product_Banner.3ad6a478ffe46038efeb.jpg",
+    "static/media/Grow_Brick.jpeg": "/chacha-coco-frontend/static/media/Grow_Brick.e8e764fd907194755ea2.jpeg",
+    "static/media/Banner3.jpg": "/chacha-coco-frontend/static/media/Banner3.ef070fd273b959c4c334.jpg",
+    "static/media/Hemantha_Director.png": "/chacha-coco-frontend/static/media/Hemantha_Director.c021d294bcb8eab77181.png",
+    "index.html": "/chacha-coco-frontend/index.html",
+    "main.5bafb51a.css.map": "/chacha-coco-frontend/static/css/main.5bafb51a.css.map",
+    "main.f25279eb.js.map": "/chacha-coco-frontend/static/js/main.f25279eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bafb51a.css",
+    "static/js/main.f25279eb.js"
+  ]
+}
