@@ -10,10 +10,12 @@ import ProductsPage from './pages/ProductsPage';
 import ContactPage from './pages/ContactPage';
 import CertificatesPage from './pages/CertificatesPage';
 import GalleryPage from './pages/GalleryPage';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
 
       <Routes>
           {/* public routes */}
