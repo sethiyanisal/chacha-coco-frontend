@@ -21,10 +21,10 @@ const AboutUsPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-8">
           <div className="flex flex-col">
             <div className="flex-1 text-start md:p-8 sm:p-4">
-              <div className="lg:pl-16 sm:text-2xl md:text-3xl lg:text-5xl text-green-500 font-bold">
+              <div className="mx-8 text-5xl text-green-500 font-bold">
                   About Us
               </div>
-              <p className='lg:pl-16 sm:text-xl lg:text-xl lg:w-5/6 text-gray-600 mt-8'> 
+              <p className='mx-8 text-lg xl:text-xl lg:text-xl text-gray-600 mt-8 mb-4'> 
                 At CHACHÅ COCO, we specialize in the production and export of premium quality coco peat products. 
                 With years of experience and expertise in the industry, 
                 we take pride in delivering sustainable and eco-friendly solutions for horticultural and agricultural needs worldwide.<br/><br/>

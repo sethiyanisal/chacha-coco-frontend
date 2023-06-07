@@ -40,12 +40,12 @@ const HomePage = () => {
       </div>
 
       <div className="grid justify-items-center mx-4 my-8">
-        <p className="text-xl w-2/3">
+        <p className="text-xl w-2/3 font-semibold">
           We proudly introduce you newly opened Sri Lankan company that is 
           doing a production of high-quality coco grow bags under the registered brand name ChaCha coco. 
           Our products are high quality because raw materials such as coco peat and coconut husk chips are obtained from the first coconut triangle in Sri Lanka.
         </p>
-        <p className="mt-4 text-xl w-2/3">
+        <p className="mt-4 text-xl w-2/3 font-semibold">
         Kurunegala,	Puttalam	and
         Gampaha districts are the first coconut triangle and it's consisting the largest coconut plantations in Sri Lanka. Kurunegala district consisting
         550,958	acres,	Puttalam
@@ -141,18 +141,18 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex-1 bg-gray-800 text-start">
-              <div className=" pt-24 pl-16 md:text-3xl lg:text-5xl text-white font-medium">
+          <div className="flex-1 bg-gray-800 text-start p-16">
+              <div className="xl:text-5xl lg:text-5xl text-3xl text-white font-medium">
                 Our Products
               </div>
-              <p className='leading-loose md:text-sm lg:text-base font-semibold lg:w-3/4 text-white mt-16 ml-16'> 
+              <p className='md:text-sm lg:text-base font-semibold text-white mt-12'> 
               At 'CHACHA COCO', we pride ourselves on being a leading exporter of high-quality coco peat products. 
               With a commitment to sustainability and superior quality, we offer a range of coco peat solutions that cater to 
               the diverse needs of our global clientele. Our dedication to customer satisfaction, reliable sourcing, and eco-friendly 
               practices sets us apart as a trusted partner in the coco peat industry.
               </p>
 
-            <a className='mt-16 pl-16' href="./Products">
+            <a className='mt-12' href="./Products">
               <button className=" mt-16 mr-2 mb-2 hover:bg-green-600 text-green-500 hover:text-white font-bold py-3 px-8 border border-green-500 hover:border-green-600">
                 READ MORE
               </button>

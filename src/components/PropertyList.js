@@ -4,11 +4,11 @@ const PropertyList = () => {
   return (
     <div>
         <div>
-        <h1 className="text-2xl md:text-3xl xl:text-4xl mx-32 text-left font-bold text-green-500 tracking-tight mb-12 mt-12">General and Physical Properties of our Products<br />
+        <h1 className="text-2xl md:text-3xl xl:text-4xl lg:mx-32 xl:mx-32 mx-16 text-left font-bold text-green-500 tracking-tight mb-12 mt-12">General and Physical Properties of our Products<br />
         </h1>
-        <h2 className="text-2xl mx-32 text-left font-semibold text-gray-600 mb-8">General Properties</h2>
+        <h2 className="text-2xl lg:mx-32 xl:mx-32 mx-16 text-left font-semibold text-gray-600 mb-8">General Properties</h2>
         </div>
-        <ul class="mb-8 space-y-4 mx-32 text-xl text-left text-gray-800">
+        <ul class="mb-8 space-y-4 lg:mx-32 xl:mx-32 mx-16 text-xl text-left text-gray-800">
             <li class="flex items-center space-x-3">
                 
                 <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -51,8 +51,8 @@ const PropertyList = () => {
             </li>
         </ul>
 
-        <h2 className="mt-16 text-2xl mx-32 text-left font-semibold text-gray-600 mb-8">Physical Properties</h2>
-        <ul class="mb-8 space-y-4 mx-32 text-xl text-left text-gray-800">
+        <h2 className="mt-16 text-2xl lg:mx-32 xl:mx-32 mx-16 text-left font-semibold text-gray-600 mb-8">Physical Properties</h2>
+        <ul class="mb-8 space-y-4 lg:mx-32 xl:mx-32 mx-16 text-xl text-left text-gray-800">
             <li class="flex items-center space-x-3">
                 
                 <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>

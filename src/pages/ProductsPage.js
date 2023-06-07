@@ -187,21 +187,21 @@ const ProductsPage = () => {
       </div>
 
       <div className='mt-16 mb-4'>
-        <h2 className="text-2xl mx-32 text-left font-semibold text-gray-600 mb-8">Water holding capacity & air-filled porosity range of specific mixtures.</h2>
+        <h2 className="text-2xl lg:mx-32 xl:mx-32 mx-16 text-left font-semibold text-gray-600 mb-8">Water holding capacity & air-filled porosity range of specific mixtures.</h2>
         
         <MixtureTable/>
         
-        <h2 className="text-lg mx-32 text-center font-semibold text-gray-800 mb-8">PH level 5.7 -6.7 & Electrical Conductivity (EC) level 0.5 to 1.2
+        <h2 className="text-lg lg:mx-32 xl:mx-32 mx-16 text-center font-semibold text-gray-800 mb-8">PH level 5.7 -6.7 & Electrical Conductivity (EC) level 0.5 to 1.2
         No added chemicals or chemical treatments and Iron Exchange property remains naturally.
         </h2>
       </div>
 
       <div className='mt-12 mb-4'>
-        <h2 className="text-2xl mx-32 text-left font-bold text-gray-800 mb-8">
+        <h2 className="text-2xl lg:mx-32 xl:mx-32 mx-16 text-left font-bold text-gray-800 mb-8">
         Crops can grow with our products
         </h2>
 
-        <p className="text-xl mx-32 text-left font-semibold text-gray-600 mb-20">Water melon, capsicum, yellow/red /green pepper, bell pepper, tomatoes, gherkin, lettuce, cabbage, strawberry and blue berry, Chile etc.</p>
+        <p className="text-xl lg:mx-32 xl:mx-32 mx-16 text-left font-semibold text-gray-600 mb-20">Water melon, capsicum, yellow/red /green pepper, bell pepper, tomatoes, gherkin, lettuce, cabbage, strawberry and blue berry, Chile etc.</p>
       </div>
 
       <div className='mt-8'>
