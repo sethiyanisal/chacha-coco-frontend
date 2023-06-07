@@ -27,7 +27,7 @@ const ContactPage = () => {
         <section className="bg-white">
             <div className="container px-6 py-12 mx-auto">
                 <div className="text-center">
-                    <p className="font-bold text-green-500 dark:text-green-400 lg:text-4xl">Contact us</p>
+                    <p className="font-bold text-green-500 text-3xl dark:text-green-400 lg:text-4xl">Contact us</p>
 
                     <p className="mt-16 text-gray-500 lg:text-xl dark:text-gray-400">We would like to hear from you.Our friendly team is always here to chat!</p>
                 </div>

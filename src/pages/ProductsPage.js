@@ -1,22 +1,24 @@
 import React from 'react'
 import { useState } from 'react'
 import NavBar from '../components/NavBar'
-import ProductBanner from '../images/Product_Banner.jpg'
-
-import CocoPith from '../images/Products/Coco_Fibre_Pith.jpg'
-import HuskChips from '../images/Products/Husk_Chips.png'
-import GrowBlock from '../images/Products/Grow_Block.jpeg'
-import GrowBrick from '../images/Products/Grow_Brick.jpeg'
-import GrowBag from '../images/Products/Grow_Bag.jpeg'
 import Footer from '../components/Footer'
 import CocoPithModal from '../components/modals/CocoPithModal'
 import HuskChipModal from '../components/modals/HuskChipModal'
 import GrowBlockModal from '../components/modals/GrowBlockModal'
 import GrowBrickModal from '../components/modals/GrowBrickModal'
 import GrowBagModal from '../components/modals/GrowBagModal'
+
 import ProductTable from '../components/ProductTable'
 import PropertyList from '../components/PropertyList'
 import MixtureTable from '../components/MixtureTable'
+
+import ProductBanner from '../images/Product_Banner.jpg'
+import CocoPith from '../images/Products/Coco_Fibre_Pith.jpg'
+import HuskChips from '../images/Products/Husk_Chips.png'
+import GrowBlock from '../images/Products/Grow_Block.jpeg'
+import GrowBrick from '../images/Products/Grow_Brick.jpeg'
+import GrowBag from '../images/Products/Grow_Bag.jpeg'
+
 
 const ProductsPage = () => {
 

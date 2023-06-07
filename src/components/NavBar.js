@@ -43,6 +43,8 @@ const NavBar = () => {
 
               <a href="./AboutUs" className="border-b-2 border-transparent block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">About Us</a>
 
+              <a href="./Certificates" className="border-b-2 border-transparent block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Certificates</a>
+
               <a href="./Gallery" className="border-b-2 border-transparent block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Gallery</a>
 
               <a href="./Contact" className="border-b-2 border-transparent block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-green-600 transition-colors duration-300 transform dark:hover:text-green-600 hover:border-green-600 mx-1.5 sm:mx-6">Contact Us</a>
