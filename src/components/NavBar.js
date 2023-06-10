@@ -10,7 +10,9 @@ const NavBar = () => {
       <>
         <nav className="flex items-center justify-between flex-wrap p-6">
           <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
+          <a href="/">
             <img src={Logo} className="w-10  mr-2" alt="Logo" />
+          </a>
           </div>
           <div className="block lg:hidden">
             <button

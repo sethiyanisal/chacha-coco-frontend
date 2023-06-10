@@ -10,6 +10,12 @@ import Banner2 from '../images/Banner2.jpg'
 import Banner3 from '../images/Banner3.jpg'
 import Wlogo from '../images/whatsapp-logo.png'
 
+import CocoPith from '../images/Products/Coco_Fibre_Pith.jpg'
+import HuskChips from '../images/Products/Husk_Chips.png'
+import GrowBlock from '../images/Products/Grow_Block.jpeg'
+import GrowBrick from '../images/Products/Grow_Brick.jpeg'
+import GrowBag from '../images/Products/Grow_Bag.jpeg'
+
 
 const HomePage = () => {
   return (
@@ -33,17 +39,16 @@ const HomePage = () => {
       </div>
 
       <div className="mx-4 my-8">
-        <h1 className="text-center text-5xl text-green-500 leading-loose tracking-widest font-bold px-4">
+        <h1 className="text-center text-5xl text-green-500 tracking-widest font-bold px-4">
           About CHACHÅ COCO
         </h1>
-        <hr className="w-1/4 mx-auto bg-gray-900" />
       </div>
 
       <div className="grid justify-items-center mx-4 my-8">
         <p className="text-xl w-2/3 font-semibold">
-          We proudly introduce you newly opened Sri Lankan company that is 
-          doing a production of high-quality coco grow bags under the registered brand name ChaCha coco. 
-          Our products are high quality because raw materials such as coco peat and coconut husk chips are obtained from the first coconut triangle in Sri Lanka.
+          We proudly introduce you the Sri Lankan company that is 
+          doing a production of high-quality coco peat and husk chips under the registered brand name CHACHÅ COCO. 
+          Our products are high quality because our raw materials such as coco peat and coconut husk chips are obtained from the first coconut triangle in Sri Lanka.
         </p>
         <p className="mt-4 text-xl w-2/3 font-semibold">
         Kurunegala,	Puttalam	and
@@ -51,7 +56,7 @@ const HomePage = () => {
         550,958	acres,	Puttalam
         districts	consisting	115,895
         acres and Gampaha district consisting 106,576 acres' coconut plantations. 
-        In these three districts annual coconut harvest is 5000 million nuts. Our factory is situated in middle of Kurunegala District Kuliyapitiya, Deegalla and regularly we are rich with high quality cocopeat and husk chips.
+        In these three districts annual coconut harvest is 5000 million nuts. Our factory is situated in middle of Kurunegala District Kuliyapitiya and regularly we are rich with high quality cocopeat and husk chips.
         </p>
         <a href="./AboutUs">
             <button className=" mt-8 mr-2 mb-2 hover:bg-green-600 text-green-500 hover:text-white font-bold py-3 px-8 border border-green-500 hover:border-green-600">
@@ -70,7 +75,7 @@ const HomePage = () => {
               to="/"
               title="Link"
               style={{
-                backgroundImage: `url(${Banner1})`,
+                backgroundImage: `url(${CocoPith})`,
               }}
             ></Link>
           </div>
@@ -83,7 +88,7 @@ const HomePage = () => {
                     to="/"
                     title="Link"
                     style={{
-                      backgroundImage: `url(${Banner1})`,
+                      backgroundImage: `url(${HuskChips})`,
                     }}
                   ></Link>
                 </div>
@@ -93,7 +98,7 @@ const HomePage = () => {
                     to="/"
                     title="Link"
                     style={{
-                      backgroundImage: `url(${Banner3})`,
+                      backgroundImage: `url(${GrowBag})`,
                     }}
                   ></Link>
                 </div>
@@ -103,7 +108,7 @@ const HomePage = () => {
                     to="/"
                     title="Link"
                     style={{
-                      backgroundImage: `url(${Banner1})`,
+                      backgroundImage: `url(${GrowBrick})`,
                     }}
                   ></Link>
                 </div>
@@ -114,7 +119,7 @@ const HomePage = () => {
                   to="/"
                   title="Link"
                   style={{
-                    backgroundImage: `url(${Banner3})`,
+                    backgroundImage: `url(${Banner1})`,
                   }}
                 ></Link>
               </div>

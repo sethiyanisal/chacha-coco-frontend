@@ -3,7 +3,7 @@ import React from 'react'
 const HomePageCard = () => {
   return (
     <>
-        <div className=" px-10 -translate-x-1/2 -translate-y-1/2 absolute text-center text-white left-1/2 top-3/4 md:top-2/3">
+        <div className=" px-4 -translate-x-1/2 -translate-y-1/2 absolute text-center text-white left-1/2 top-3/4 md:top-2/3">
           <h1>
             <span className="text-5xl pb-4 font-medium tracking-wide">
             CHACHÅ COCO

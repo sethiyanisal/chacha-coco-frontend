@@ -26,7 +26,7 @@ const Footer = () => {
                                 </svg>
                             </a>
                         
-                            <a href="#"
+                            <a href="https://www.facebook.com/profile.php?id=100092987534496&mibextid=LQQJ4d"
                                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                                 aria-label="Facebook">
                                 <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,9 +64,10 @@ const Footer = () => {
 
                         <div>
                             <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+94 (77) 7398274</span>
-                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">chachacoco@mihineth.net</span>
-                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mihineth Associate [Pvt] Ltd 37/1 Sirigala, Dambadeniya PC 60130 Sri Lanka</span>
+                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline mt-4">Whatsapp - +94 (76) 1431782</span>
+                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline mt-4">Tel - +94(77) 7398274</span>
+                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline mt-4">chachacoco@mihineth.net</span>
+                            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline mt-4">Mihineth Associate [Pvt] Ltd 37/1 Sirigala, Dambadeniya PC 60130 Sri Lanka</span>
                         </div>
                     </div>
                 </div>

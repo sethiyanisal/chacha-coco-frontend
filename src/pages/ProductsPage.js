@@ -79,7 +79,7 @@ const ProductsPage = () => {
         </section>
 
         <section className="bg-white">
-          <div className="container px-6 py-10 mx-auto">
+          <div className="container px-6 py-4 mx-auto">
               <h1 className="text-3xl font-bold text-center text-green-500 capitalize lg:text-5xl xl:text-6xl">Our Product Varieties
               </h1>
 

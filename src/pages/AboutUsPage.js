@@ -11,7 +11,7 @@ const AboutUsPage = () => {
     <>
         <NavBar/>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 mt-8">
+        <div id='aboutus' className="grid grid-cols-1 lg:grid-cols-2 mt-8">
           <div className="flex flex-col">
             <div className="flex-1 text-start md:p-8 sm:p-4">
               <div className="mx-8 text-5xl text-green-500 font-bold">
@@ -40,20 +40,18 @@ const AboutUsPage = () => {
           <dh-component>
               <div className="container flex justify-center mx-auto pt-16">
                   <div>
-                      <p className="text-gray-700 text-5xl text-center font-bold pb-3">OUR TEAM</p>
+                      <p id='team' className="text-gray-700 text-5xl text-center font-bold pb-3">OUR TEAM</p>
                       <h1 className="xl:text-xl text-xl text-center text-gray-800 pb-6 sm:w-4/6 w-5/6 mx-auto">
                         Our team consisting three personnel in top
                         management and 15 personnel in executives
                         and minor staff. Top management team having more than 30 years of export management
-                        experience in various coconut-related products
-                        with a very superior coir export company in Sri
-                        Lanka. Other executives and minor staff also
+                        experience in various coconut-related products. Other executives and minor staff also
                         have very good experience in grow bag
                         productions. 
                       </h1>
                   </div>
               </div>
-              <div className="w-full bg-gray-100 px-10 pt-10">
+              {/* <div className="w-full bg-gray-100 px-10 pt-10">
                   <div className="container mx-auto">
                       <div role="list" aria-label="Behind the scenes People " className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
                           <div role="listitem" className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
@@ -99,7 +97,7 @@ const AboutUsPage = () => {
                           </div>
                       </div>
                   </div>
-              </div>
+              </div> */}
           </dh-component>
       </div>
 
