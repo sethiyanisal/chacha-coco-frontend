@@ -75,7 +75,8 @@ const ContactPage = () => {
                         
                         <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
                         <p className="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                        <p className="mt-2 text-green-500 dark:text-green-600">+94 (77) 7398274</p>
+                        <p className="mt-2 text-green-500 dark:text-green-600">Tel - +94 (77) 7398274</p>
+                        <p className="mt-2 text-green-500 dark:text-green-600">Whatsapp - +94 (76) 1431782</p>
                     </div>
                 </div>
             </div>

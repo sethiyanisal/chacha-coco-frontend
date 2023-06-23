@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <>
     <footer className="bg-white dark:bg-gray-900">
-        <div className="container p-6 mx-auto">
+        <div className="container p-6 md:p-6 mx-auto">
             <div className="lg:flex">
-                <div className="w-full flex justify-center lg:w-2/5">
-                    <div className="px-6">
+                <div className="w-full flex justify-center lg:w-1/5">
+                    <div className="px-3">
                         <a className='flex justify-center' href="/">
                             <img className="w-auto h-10" src={Logo} alt=""/>
                         </a>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-6 lg:mt-0 lg:flex-1">
-                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                         <div>
                             <h3 className="text-gray-700 uppercase dark:text-white">About</h3>
                             <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">About Us</a>
