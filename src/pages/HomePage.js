@@ -166,7 +166,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <hr className="mt-8 w-3/4 mx-auto bg-gray-900" />
+      {/* <hr className="mt-8 w-3/4 mx-auto bg-gray-900" />
 
       <div className="dark:bg-green-700 mb-36 mt-16">
         <div className="pb-20">
@@ -226,7 +226,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
       <div className='mt-8'>
         <Footer/>
