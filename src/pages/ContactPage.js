@@ -14,7 +14,7 @@ const ContactPage = () => {
     const sendEmail = (e) => {
       e.preventDefault();
       
-      emailjs.sendForm('service_q2r76mm', 'template_2n2y1q6', form.current, 'D2a4CkUXbA64EBGoQ')
+      emailjs.sendForm('service_8qetezd', 'template_an4w8hb', form.current, 'jgqk455bwTLVSw_Yk')
         .then((result) => {
             setStatus({ type: 'success' });
             setIsOpen(!isOpen);
