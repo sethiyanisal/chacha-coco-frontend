@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Certificate from '../images/BR_Certificate.png'
 import CertificateModal from '../components/modals/CertificateModal'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet-async'
 
 const CertificatesPage = () => {
 
@@ -10,6 +11,11 @@ const CertificatesPage = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Chacha Coco - Certificate Page</title>
+      <meta name='description' content='CHACHA COCO - cocopeat products.'/>
+      <link rel='canonical' href='/Certificates'/>
+    </Helmet>
         <NavBar/>
 
         <div>

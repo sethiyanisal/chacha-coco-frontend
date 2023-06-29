@@ -6,10 +6,16 @@ import GrowBlock from '../images/Products/Grow_Block.jpeg'
 import GrowBrick from '../images/Products/Grow_Brick.jpeg'
 import GrowBag from '../images/Products/Grow_Bag.jpeg'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet-async'
 
 const GalleryPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Chacha Coco - Gallery Page</title>
+      <meta name='description' content='CHACHA COCO Photo Gallery'/>
+      <link rel='canonical' href='/Gallery'/>
+    </Helmet>
         <NavBar/>
 
         <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">

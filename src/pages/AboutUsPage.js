@@ -5,10 +5,17 @@ import Footer from '../components/Footer'
 import Hemantha from '../images/Hemantha_Director.png'
 import Sarath from '../images/Sarath_CEO.jpg'
 import Upali from '../images/Upali_Director.jpg'
+import { Helmet } from 'react-helmet-async'
 
 const AboutUsPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Chacha Coco - About us page</title>
+      <meta name='description' content='At CHACHA COCO, we specialize in the production and export of premium quality coco peat products.'/>
+      <link rel='canonical' href='/AboutUs'/>
+    </Helmet>
+
         <NavBar/>
 
         <div id='aboutus' className="grid grid-cols-1 lg:grid-cols-2 mt-8">

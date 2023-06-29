@@ -18,6 +18,7 @@ import HuskChips from '../images/Products/Husk_Chips.png'
 import GrowBlock from '../images/Products/Grow_Block.jpeg'
 import GrowBrick from '../images/Products/Grow_Brick.jpeg'
 import GrowBag from '../images/Products/Grow_Bag.jpeg'
+import { Helmet } from 'react-helmet-async'
 
 
 const ProductsPage = () => {
@@ -30,6 +31,12 @@ const ProductsPage = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Chacha Coco - Product Page</title>
+      <meta name='description' content='We manufacture range of coconut husk based products to the local and export market.'/>
+      <link rel='canonical' href='/Products'/>
+    </Helmet>
+    
         <NavBar/>
         
         <section className="mb-12">

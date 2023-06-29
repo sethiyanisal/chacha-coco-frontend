@@ -15,11 +15,18 @@ import HuskChips from '../images/Products/Husk_Chips.png'
 import GrowBlock from '../images/Products/Grow_Block.jpeg'
 import GrowBrick from '../images/Products/Grow_Brick.jpeg'
 import GrowBag from '../images/Products/Grow_Bag.jpeg'
+import { Helmet } from 'react-helmet-async';
 
 
 const HomePage = () => {
   return (
     <>
+    <Helmet>
+      <title>Chacha Coco - Homepage</title>
+      <meta name='description' content='We proudly introduce you the Sri Lankan company that is 
+          doing a production of high-quality coco peat and husk chips under the registered brand name CHACHA COCO'/>
+      <link rel='canonical' href='/'/>
+    </Helmet>
       <NavBar/>
 
       <div
